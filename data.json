@@ -1,0 +1,65 @@
+{
+  "teacher": [
+    {
+      "email": "admin@gmail.com",
+      "password": "admin"
+    }
+  ],
+  "student": [
+    {
+      "id": "1",
+      "name": "suhas",
+      "grade": "a",
+      "email": "student@gmail.com",
+      "password": "student",
+      "semester": [
+        {
+          "sem1": {
+            "sub1": "21",
+            "sub2": "32",
+            "sub3": "44",
+            "sgpa": "35"
+          }
+        },
+        {
+          "sem2": {
+            "sub1": "33",
+            "sub2": "32",
+            "sub3": "36",
+            "sgpa": "31"
+          }
+        },
+        {
+          "cgpa": "34"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "ajay",
+      "email": "ajay@gmail.com",
+      "password": "12345",
+      "semester": [
+        {
+          "sem1": {
+            "sub1": "2",
+            "sub2": "3",
+            "sub3": "4",
+            "sgpa": "3"
+          }
+        },
+        {
+          "sem2": {
+            "sub1": "3",
+            "sub2": "3",
+            "sub3": "3",
+            "sgpa": "3"
+          }
+        },
+        {
+          "cgpa": "3"
+        }
+      ]
+    }
+  ]
+}
